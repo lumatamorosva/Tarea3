@@ -1,0 +1,197 @@
+.fecha {
+    display: inline;
+}
+
+body {
+    background: gray;
+    font-size: 11px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #06007d;
+    line-height: 12px;
+    padding-bottom: 1px;
+}
+
+a:hover {
+    text-decoration: underline double;
+    font-size: larger;
+}
+
+p {
+    margin-bottom: 14px;
+    text-align: justify;
+}
+
+.imgreferencial {
+    float: left;
+    width: 48%;
+    height: 190px;
+    margin-bottom: 5px;
+}
+
+#contenidorelacionado {
+    width: 48%;
+    height: 190px;
+    margin-bottom: 5px;
+}
+
+#des{
+text-align: center;
+}
+
+header{
+    display: block;
+    border: black solid;
+    margin-bottom: 15px;
+}
+
+#menu {
+background-color: #03333e;
+border: black dotted;
+}
+
+nav {
+    text-align: center;
+    padding: 5px;
+}
+
+nav .principal {
+    border-right: solid;
+    padding-right: 3px;
+}
+
+#aside {
+    width: 30%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    background: lightgray;
+}
+
+#main1 {
+    width: 65%;
+    margin-bottom: 10px;
+    float: right;
+}
+
+#articulo1 {
+    background: lightgray;
+}
+
+#articulo2 {
+    background: lightgray;
+}
+
+img {
+    height: 130px;
+    width: 24%;
+    display: inline;
+    padding: 1px;
+}
+
+.images {
+    display: block;
+    border: solid;
+}
+
+.foot1 {
+    display: inline;
+    float: left;
+}
+
+#date {
+    float: right;
+}
+
+footer {
+    background-color: darkgray;
+}
+
+@media screen and (min-width: 100px) and (max-width: 600px){
+    body {
+        background: gray;
+        font-size: 10px;
+        font-family: 'Trebuchet MS', sans-serif;
+        color: #06007d;
+        line-height: 12px;
+        padding-bottom: 1px;
+    }
+
+    .imgreferencial {
+        width: 100%;
+        height: 150px;
+    }
+    
+    #contenidorelacionado {
+        width: 100%;
+        height: 150px;
+    }
+    
+    #des{
+    text-align: center;
+    }
+    
+    header{
+        display: block;
+        border: black solid;
+        margin-bottom: 15px;
+    }
+    
+    #menu {
+    background-color: #80bdca;
+    border: black dotted;
+    }
+    
+    nav {
+        font-weight: bold;
+        font-size: small;
+        letter-spacing: -1px;
+        text-align: center;
+        padding: 5px;
+    }
+    
+    nav .principal {
+        border-right: none;
+        display: block;
+    }
+
+    #aside {
+        width: 100%;
+        margin-bottom: 5px;
+        background: lightgray;
+    }
+    
+    #main1 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    #articulo1 {
+        background: lightgray;
+        padding: 2px;
+    }
+    
+    #articulo2 {
+        background: lightgray;
+    }
+    
+    img {
+        height: 130px;
+        width: 100%;
+        display: block;
+        padding: 1px;
+    }
+    
+    .images {
+        display: block;
+        border: solid;
+    }
+    
+    .foot1 {
+        display: inline;
+        float: left;
+    }
+    
+    #date {
+        float: left;
+    }
+}
